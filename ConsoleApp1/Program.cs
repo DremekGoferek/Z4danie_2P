@@ -2,12 +2,16 @@
 {
     static void Main(string[] args)
     {
-        int i = 0;
-while (i > 10) {
-            Console.WriteLine(i);
-            i++;
-        
-        }
+        char a = 'a';
+        int lettersNumber = 0;
 
-        }
-    }
+        foreach (char letter in a)
+        {
+            if (char letter in napis) {
+                if (letter == a) { }
+                  lettersNumber += 1;
+            }
+            Console.WriteLine(lettersNumber);
+        
+    
+            S
